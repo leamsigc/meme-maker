@@ -7,9 +7,9 @@ const imagesSrc = [
 	'https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fdotb.tc0bblfg2d81v7kurec.netdna-cdn.com%2Fwp-content%2Fuploads%2F2016%2F11%2FStart-Trek-WTF-Meme-Blank.png&f=1',
 	'https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.relatably.com%2Fm%2Fimg%2Fblank-memes-pictures%2FAncient-Aliens.jpg&f=1',
 	'https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2Fce%2F46%2Faf%2Fce46afc855a0c0651ea0a0b3f60703e4--nutella-meme-history-memes.jpg&f=1',
-	'/images/boyMeme.png',
-	'https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.oFcuf-gxLkeT_ycLHNaXgAHaFj%26pid%3D15.1&f=1',
-	'https://i.pinimg.com/736x/60/50/1a/60501a96acd180b8ecbb3ffa8ee84017.jpg'
+	'./images/boyMeme.png',
+	'./images/batmanAndRobin.jpg',
+	'./images/history-extraterrestres.jpg'
 ];
 
 export default class MainPage extends Component {
@@ -49,7 +49,10 @@ export default class MainPage extends Component {
 	};
 
 	HandleDownload = () => {
-		const imageToDownload = document.querySelector('#canvasEl').toDataURL('image/png');
+		const imageToDownload = document
+			.querySelector('#canvasEl')
+			.toDataURL('image/png')
+			.replace('image/png', 'image/octet-stream');
 		console.log(imageToDownload);
 		const button = document.querySelector('#downloadButton');
 		button.setAttribute('href', imageToDownload);
@@ -59,7 +62,7 @@ export default class MainPage extends Component {
 		const canvas = document.querySelector('#canvasEl');
 		const ctx = canvas.getContext('2d');
 		const img = new Image();
-
+		img.crossOrigin = 'anonymous';
 		img.src = imagesSrc[this.state.currentImage];
 		img.onload = () => {
 			ctx.drawImage(img, 0, 0, canvas.width, canvas.height);

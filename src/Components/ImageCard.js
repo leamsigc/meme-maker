@@ -1,18 +1,21 @@
 import React from 'react';
 import '../App.css';
-export default function ImageCard({ text, handleClick }) {
+export default function ImageCard({ text, handleClick, currentImg }) {
 	return (
-		<div style={CardStyle} className="card" onClick={handleClick}>
-			<p>Card {text.toUpperCase()}</p>
+		<div style={CardStyle} className="card" onClick={() => handleClick(currentImg)}>
+			<strong>Make your meme </strong>
+			<img src={text} width="150" height="200" />
 		</div>
 	);
 }
 
 const CardStyle = {
-	background: 'tomato',
-	flex: '1 1 20%',
+	background: '#f3f3f3',
+	flex: '1 0 30%',
 	maxWidth: '200px',
 	padding: '2rem 1rem',
 	textAlign: 'center',
-	cursor: 'pointer'
+	cursor: 'pointer',
+	marginTop: '0.5rem',
+	color: '#333'
 };

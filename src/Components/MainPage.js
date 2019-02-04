@@ -4,11 +4,14 @@ import ImageCard from './ImageCard';
 import Modal from './Modal';
 
 const imagesSrc = [
-	'https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fdotb.tc0bblfg2d81v7kurec.netdna-cdn.com%2Fwp-content%2Fuploads%2F2016%2F11%2FStart-Trek-WTF-Meme-Blank.png&f=1',
-	'https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.relatably.com%2Fm%2Fimg%2Fblank-memes-pictures%2FAncient-Aliens.jpg&f=1',
-	'https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2Fce%2F46%2Faf%2Fce46afc855a0c0651ea0a0b3f60703e4--nutella-meme-history-memes.jpg&f=1',
 	'./images/boyMeme.png',
 	'./images/batmanAndRobin.jpg',
+	'./images/mouse-seco.jpg',
+	'./images/nba-player.jpg',
+	'./images/obama-meme.jpg',
+	'./images/trump-meme.jpg',
+	'./images/what.jpg',
+	'./images/woman-hand.jpg',
 	'./images/history-extraterrestres.jpg'
 ];
 

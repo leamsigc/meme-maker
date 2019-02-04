@@ -1,13 +1,13 @@
 {
   "main.css": "/meme-maker/static/css/main.8b4ab7c1.chunk.css",
-  "main.js": "/meme-maker/static/js/main.ad92defb.chunk.js",
-  "main.js.map": "/meme-maker/static/js/main.ad92defb.chunk.js.map",
+  "main.js": "/meme-maker/static/js/main.95b8a319.chunk.js",
+  "main.js.map": "/meme-maker/static/js/main.95b8a319.chunk.js.map",
   "static/js/1.701e8066.chunk.js": "/meme-maker/static/js/1.701e8066.chunk.js",
   "static/js/1.701e8066.chunk.js.map": "/meme-maker/static/js/1.701e8066.chunk.js.map",
   "runtime~main.js": "/meme-maker/static/js/runtime~main.c788a6a2.js",
   "runtime~main.js.map": "/meme-maker/static/js/runtime~main.c788a6a2.js.map",
   "static/css/main.8b4ab7c1.chunk.css.map": "/meme-maker/static/css/main.8b4ab7c1.chunk.css.map",
   "index.html": "/meme-maker/index.html",
-  "precache-manifest.87084956f3be8b6203653992117b2f9a.js": "/meme-maker/precache-manifest.87084956f3be8b6203653992117b2f9a.js",
+  "precache-manifest.6ffb016b155172ed3af5804bdd178077.js": "/meme-maker/precache-manifest.6ffb016b155172ed3af5804bdd178077.js",
   "service-worker.js": "/meme-maker/service-worker.js"
 }

@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "ad92defb2fe90ce1215c",
+    "revision": "95b8a319b8d764f5e032",
     "url": "/meme-maker/static/css/main.8b4ab7c1.chunk.css"
   },
   {
-    "revision": "ad92defb2fe90ce1215c",
-    "url": "/meme-maker/static/js/main.ad92defb.chunk.js"
+    "revision": "95b8a319b8d764f5e032",
+    "url": "/meme-maker/static/js/main.95b8a319.chunk.js"
   },
   {
     "revision": "701e80665e0aa5267d43",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/meme-maker/static/js/runtime~main.c788a6a2.js"
   },
   {
-    "revision": "9a20b4c9fb690760c40ff27d17d8d266",
+    "revision": "e53102e6b2fdf6cfdd5c437a6682f2ae",
     "url": "/meme-maker/index.html"
   }
 ];
